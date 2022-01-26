@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/Logo-Teste-Dark.svg">
+    <title>OnePage</title>
+
+</head>
+<body>
+
+                                <!-- MENU -->
+
+    <header>
+        <div class="center">
+                <div class="logo">
+                    <img src="./images/Logo-Teste-Light.svg" alt="logo-tete-light">
+                </div>
+            
+            <nav id="nav">
+                <div class="menu-mobile" id="menu-mobile">
+                    <img src="./images/menu.png" alt="menu-mobile">
+                </div>
+                <ul id="menu">
+                    <li class="home"><a href="#home">HOME</a></li>
+                    <li class="about"><a href="#about">SOBRE</a></li>
+                    <li class="gallery"><a href="#gallery">GALERIA</a></li>
+                    <li class="notify"><a href="#notify">NOTÍCIAS</a></li>
+                    <li class="contact"><a href="#contact">CONTATOS</a></li>
+                </ul>
+
+                <div class="social" id="social">
+                    <a href="https://instagram.com"><i class="fab fa-instagram-square soci"></i></a>
+                    <a href="https://facebook.com"><i class="fab fa-facebook-square soci"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin soci"></i></a>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+                                <!-- HOME -->
+
+    <section class="banner" id="home">
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
+                <li class="slide slide-form" data-active>
+                    <img src="./images/windows-red-logo-4k-red-brickwall-windows-logo-brands.jpg" alt="windows-red">
+                    
+                        <div class="form-in-slide">
+                            <h2>Lorem ipsum amet, consectetur artude aspect for if elit.</h2>
+        
+                            <div class="form-slide-inputs">
+                                <input type="text" name="nome" placeholder="Nome*" required>
+                            </div>
+                            <div class="form-slide-inputs">
+                                <input type="tel" name="tel" placeholder="Telefone*" required>
+                            </div>
+                            <div class="form-slide-inputs">
+                                <input type="text" name="email" placeholder="E-mail*" required>
+                            </div>
+                            <div class="form-slide-inputs chk">
+                                <input type="checkbox">
+                                <label for="checkbox">Lorem ipsum Lorem ips id</label>
+                            </div>
+                            <div class="form-slide-inputs submit">
+                                <a href="#"><i class="far fa-paper-plane icon-submit"></i>
+                                    ENVIAR
+                                </a>
+                            </div>
+                        </div>
+
+                </li>
+                <li class="slide">
+                    <img src="./images/code_php_html-wallpaper-1920x1080.jpg" alt="Natu2">
+                </li>
+                <li class="slide">
+                    <img src="./images/macbook.jpg" alt="Nature Image #3">
+                </li>
+            </ul>
+        </div>      
+    </section>
+    
+                                <!-- CALL TO ACTION -->
+    
+    <section class="cta">
+        <div class="center">
+            <div class="cta-column-text">
+                <h2>Lorem ipsum dolor sit amet, luctus eros.</h2>
+                 <p>Lorem ipsum dolor sit amet, luctus eros. In efficitur,
+                 ipsum sit amet bibendum ornare.</p>
+            </div>
+            <div class="cta-column-button">
+                <a href="#home">CTA BUTTON</a>
+            </div>
+        </div>
+    </section>
+
+                                <!-- SOBRE -->
+
+    <section class="sobre" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="./images/banner-woman-pc.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h3><u>SOBRE A </u>EMPRESA</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit arte. A Donec a luctus eros. 
+                In efficitur, ipsum sit amet bibendum ornare, mi metus consequat a quam, nec 
+                tincidunt dolor sem eu purus. Aliquam aliquet metus non sem bibendum, ad eget 
+                ullamcorper justo sollicitudin. Vivamus cursus vulputate orb velit,a abut ullamcorper
+                risus viverra quis. </p>
+                <p>Quisque mollis, turpis in scelerisque rutrum, lorema nulla a commodo massa, ut 
+                consequat turpis turpis a justo. Aeneana in odio id lectus  asd dmalesuada consequat. 
+                Donec orcir nal elit, facilisis et dignissim nec, pharetra abdls at quam. In vel odio 
+                tortor. Nulla in ante facilisis, imperdiet lacus sed, faucibus dui.</p>
+            </div>
+        </div>
+    </section>
+
+                                <!-- GALERIA -->
+
+    <section class="galeria" id="gallery">
+        <div class="center">
+            <div class="tittle">
+                <h2>G<u>ALERI</u>A</h2>
+                <p>Donec orcir nal elit, facilisis et dignissim nec, pharetra abdls at quam. In vel odio 
+                tortor. Nulla in ante facilisis</p>
+            </div>
+        
+            <div class="box-contents">
+                <div class="box-images">
+                    <img src="./images/800055.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    
+                </div>
+                <div class="box-images">
+                    <img src="./images/865098.jpg" alt="" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    
+                </div>
+                <div class="box-images">
+                    <img src="./images/creative-coding.jpg" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    
+                </div>
+            </div>
+            <div class="box-contents">
+                <div class="box-images">
+                    <img src="./images/coding-blue.jpg" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    
+                </div>
+                <div class="box-images">
+                    <img src="./images/coding-blue-big.jpg" alt="" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                    
+                </div>
+                <div class="box-images">
+                    <img src="./images/programação.jpeg" alt="" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                    
+                </div>
+            </div>
+
+                <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+            
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="./images/800055.jpg" style="width:100%; height: 500px;">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="./images/865098.jpg" style="width:100%; height: 500px;">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="./images/creative-coding.jpg" style="width:100%; height: 500px;">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="./images/coding-blue.jpg" style="width:100%; height: 500px;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="./images/coding-blue-big.jpg" style="width:100%; height: 500px;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="./images/programação.jpeg" style="width:100%; height: 500px;">
+                </div>
+            
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="demo" src="./images/800055.jpg" onclick="currentSlide(1)" alt="coding-01">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./images/865098.jpg" onclick="currentSlide(2)" alt="coding-02">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./images/creative-coding.jpg" onclick="currentSlide(3)" alt="creative-coding">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./images/coding-blue.jpg" onclick="currentSlide(4)" alt="coding-blue">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/coding-blue-big.jpg" onclick="currentSlide(5)" alt="coding-blue-big">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/programação.jpeg" onclick="currentSlide(6)" alt="programação">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                                <!-- NOTÍCIAS -->
+
+    <section class="noticias" id="notify">
+        <div class="center">
+            <div class="tittle">
+                <h2>N<u>OTÍCIA</u>S</h2>
+                <p>Donec orcir nal elit, facilisis et dignissim nec, pharetra abdls at quam. In vel odio 
+                tortor. Nulla in ante facilisis</p>
+            </div>
+
+            <div class="box-contents">
+                <div class="box-column">
+                    <div class="image-column">
+                        <img src="./images/noticias-notebook1.jpg" alt="Empregos-em-alta">
+                    </div>
+
+                    <div class="contents-column">
+                        <h4>Pesquisa mostra profissões em alta no setor de tecnologia para 2022</h4>
+                        <p>20/01/2022</p>
+                    </div>
+                    <div class="contents-column">
+                        <p>
+                            Donec orcir nal elit, facilisis et dignissim nec,
+                             pharetra abdls at quam. In vel odio 
+                            tortor. Nulla in ante facilisis
+                            Vivamus cursus vulputate orb velit,a abut ullamcorper
+                            risus viverra quis.
+                            Lorem ipsum dolor sit amet, consectetur
+                            In efficitur impsun awake.
+                        </p>
+                    </div>
+
+                    <div class="contents-column">
+                        <a href="https://g1.globo.com/trabalho-e-carreira/noticia/2021/12/08/pesquisa-mostra-profissoes-em-alta-no-setor-de-tecnologia-para-2022.ghtml">VEJA MAIS</a>
+                    </div>
+                    
+                </div>
+                <div class="box-column">
+                    <div class="image-column">
+                        <img src="./images/noticias-notebook2.jpg" alt="Empregos-em-alta">
+                    </div>
+
+                    <div class="contents-column">
+                        <h4>Empregos da área de tecnologia são os mais promissores para 2022</h4>
+                        <p>20/01/2022</p>
+                    </div>
+                    <div class="contents-column">
+                        <p>
+                            Donec orcir nal elit, facilisis et dignissim nec,
+                             pharetra abdls at quam. In vel odio 
+                            tortor. Nulla in ante facilisis
+                            Vivamus cursus vulputate orb velit,a abut ullamcorper
+                            risus viverra quis.
+                            Lorem ipsum dolor sit amet, consectetur
+                            In efficitur impsun awake.
+                        </p>
+                    </div>
+
+                    <div class="contents-column">
+                        <a href="https://www.seudinheiro.com/2022/economia/empregos-em-alta-2022-linkedin-tecnologia/">VEJA MAIS</a>
+                    </div>
+                    
+                </div>
+                <div class="box-column">
+                    <div class="image-column">
+                        <img src="./images/noticias-notebook3.jpg" alt="Empregos-em-alta">
+
+                    </div>
+
+                    <div class="contents-column">
+                        <h4>Áreas de tecnologia, ciência de dados e design são destaques</h4>
+                        <p>20/01/2022</p>
+                    </div>
+                    <div class="contents-column">
+                        <p>
+                            Donec orcir nal elit, facilisis et dignissim nec,
+                            pharetra abdls at quam. In vel odio 
+                            tortor. Nulla in ante facilisis
+                            Vivamus cursus vulputate orb velit,a abut ullamcorper
+                            risus viverra quis.
+                            Lorem ipsum dolor sit amet, consectetur
+                            In efficitur impsun awake.
+                        </p>
+                    </div>
+
+                    <div class="contents-column">
+                        <a href="https://g1.globo.com/trabalho-e-carreira/noticia/2022/01/19/25-empregos-em-alta-em-2022-areas-de-tecnologia-ciencia-de-dados-e-design-sao-destaque-diz-pesquisa-do-linkedin.ghtml">VEJA MAIS</a>
+                    </div>
+                    
+                </div>
+            </div>
+    </section>
+
+                                <!-- CONTATOS -->
+
+    <section class="contatos" id="contact">
+        <div class="center">
+            <div class="column1-contatos">
+                <div class="tittle">
+                    <h2><u>CONT</u>ATO</h2>
+                    <p>Donec orcir nal elit, facilisis et dignissim nec, pharetra abdls at quam. In vel odio 
+                    tortor. Nulla in ante facilisis</p>
+                </div>
+
+                <div class="form-input-contato">
+                    <input type="text" id="nome" placeholder="Nome*" required>
+                </div>
+
+                <div class="form-input-contato">
+                    <input type="tel" id="telefone" placeholder="Telefone">
+                    <input type="email" id="email" placeholder="E-mail*" required>
+                </div>
+
+                <div class="form-input-contato">
+                    <input type="text" id="assunto" placeholder="Assunto*" required>
+                </div>
+
+                <div class="form-input-contato">
+                    <textarea name="msg" id="mensagem" cols="30" rows="8" placeholder="Mensagem*" required></textarea>
+                </div>
+
+                <div class="form-input-contato input-button">
+                    <a href="#"><i class="far fa-paper-plane icon-submit"></i>
+                        ENVIAR
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="column2-contatos">
+                <div class="tittle">
+                    <h2><u>LOREM</u> IPSUM</h2>
+                    <p>Donec orcir nal elit, facilisis et dignissim nec, pharetra abdls at quam. In vel odio 
+                    tortor. Nulla in ante facilisis</p>
+                </div>
+
+                <div class="contato-icons">
+                    <div class="icon-box">
+                        <i class="fas fa-envelope-square i"></i>
+                        <p>kain@lorem.com</p>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fas fa-phone-square-alt i"></i>
+                        <p>(21) 99999-9999</p>
+                        <p>(21) 99999-9999</p>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fas fa-map-marker-alt i"></i>
+                        <p>R. Lorem Ipsum, 800</p>
+                        <p>São Gonçalo, RJ</p>
+                    </div>
+                                        
+                </div>
+
+                <div class="accordion-container">
+                    <div class="accordion-groups g1">
+                        <p>Accordion Collapse Group #01</p>
+                        <i class="fas fa-chevron-down icon-acc"></i>
+                    </div>
+                    <div class="accordion-hide a1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed vitae lorem libero. In et nisl risus.In et nisl risus.
+                         Sed est lectus, rutrum eget condimentum posuere, eleifend
+                         vitae ante.
+                    </div>
+
+                    <div class="accordion-groups g2">
+                        <p>Accordion Collapse Group #02</p>
+                        <i class="fas fa-chevron-down icon-acc"></i>
+                    </div>
+                    <div class="accordion-hide a2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed vitae lorem libero. In et nisl risus.In et nisl risus.
+                         Sed est lectus, rutrum eget condimentum posuere, eleifend
+                         vitae ante.
+                    </div>
+
+                    <div class="accordion-large">
+                        <p>
+                        tortor. Nulla in ante facilisis
+                        Vivamus cursus vulputate orb velit,a abut ullamcorper
+                        risus viverra quis.
+                        Donec orcir nal elit, facilisis et dignissim nec,
+                        pharetra abdls at quam. In vel odio 
+                        tortor. Nulla in ante facilisis
+                        Vivamus cursus vulputate orb velit,a abut ullamcorper
+                        risus viverra quis.
+                        </p>
+
+                    </div>
+                    <div class="accordion-groups g3">
+                        <p>Accordion Collapse Group #03</p>
+                        <i class="fas fa-chevron-down icon-acc"></i>
+                    </div>
+                    <div class="accordion-hide a3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed vitae lorem libero. In et nisl risus.In et nisl risus.
+                         Sed est lectus, rutrum eget condimentum posuere, eleifend
+                         vitae ante.
+                    </div>
+            </div>
+        </div>
+    </section>
+
+                                <!-- FOOTER -->
+
+    <footer class="last-row">
+        <div class="footer-content">
+            <div class="footer-img">
+                <img src="./images/Logo-Teste-Light.svg" alt="Logo-Teste-Light">
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2022 - LOREM IPSUM Todos os direitos reservados
+                 - Desenvolvido por <a href="https://kain-prog.github.io/kain/">Kain Dev</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./javascript/script.js"></script>
+
+
+</body>
+</html>
